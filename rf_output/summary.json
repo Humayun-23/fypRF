@@ -1,0 +1,86 @@
+{
+  "vibration": {
+    "accuracy": 0.845905867182463,
+    "macro_f1": 0.8666666666666666,
+    "macro_precision": 0.875,
+    "macro_recall": 0.9166666666666666,
+    "oob_score": 1.0,
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "criterion": "gini",
+      "class_weight": "balanced",
+      "bootstrap": true,
+      "oob_score": true,
+      "n_jobs": -1,
+      "random_state": 42
+    },
+    "n_features": 154
+  },
+  "acoustic": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "oob_score": 1.0,
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "criterion": "gini",
+      "class_weight": "balanced",
+      "bootstrap": true,
+      "oob_score": true,
+      "n_jobs": -1,
+      "random_state": 42
+    },
+    "n_features": 27
+  },
+  "current": {
+    "accuracy": 0.32011173184357544,
+    "macro_f1": 0.2529969921661127,
+    "macro_precision": 0.22356584987157396,
+    "macro_recall": 0.3427871148459384,
+    "oob_score": 0.9802890932982917,
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "criterion": "gini",
+      "class_weight": "balanced",
+      "bootstrap": true,
+      "oob_score": true,
+      "n_jobs": -1,
+      "random_state": 42
+    },
+    "n_features": 27
+  },
+  "temperature": {
+    "accuracy": 0.42849162011173186,
+    "macro_f1": 0.37043917826991946,
+    "macro_precision": 0.467058356189191,
+    "macro_recall": 0.435678246193875,
+    "oob_score": 0.9227989487516426,
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_features": null,
+      "criterion": "gini",
+      "class_weight": "balanced",
+      "bootstrap": true,
+      "oob_score": true,
+      "n_jobs": -1,
+      "random_state": 42
+    },
+    "n_features": 55
+  }
+}

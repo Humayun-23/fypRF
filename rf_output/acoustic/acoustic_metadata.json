@@ -1,0 +1,41 @@
+{
+  "model_type": "RandomForest",
+  "sensor": "acoustic",
+  "window_size": 51200,
+  "step_size": 25600,
+  "sample_rate": 51200,
+  "n_features": 27,
+  "n_train_windows": 2856,
+  "n_test_windows": 714,
+  "train_class_distribution": {
+    "Normal": 476,
+    "BPFI": 1190,
+    "BPFO": 1190
+  },
+  "test_class_distribution": {
+    "Normal": 238,
+    "BPFI": 238,
+    "BPFO": 238
+  },
+  "classes_used": [
+    "Normal",
+    "BPFI",
+    "BPFO"
+  ],
+  "best_params": {
+    "n_estimators": 200,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "criterion": "gini",
+    "class_weight": "balanced",
+    "bootstrap": true,
+    "oob_score": true,
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "tuning_method": "none",
+  "tuning_convergence": [],
+  "oob_score": 1.0
+}

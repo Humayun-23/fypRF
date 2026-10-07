@@ -1,0 +1,106 @@
+{
+  "sensor": "temperature",
+  "type": "MDI (Gini Importance)",
+  "top_features": [
+    {
+      "name": "temp_A_total_power",
+      "importance": 0.25402672883178395,
+      "std": 0.18233373209370904
+    },
+    {
+      "name": "temp_A_mean",
+      "importance": 0.23777695196238094,
+      "std": 0.17481498308214163
+    },
+    {
+      "name": "temp_A_rms",
+      "importance": 0.22651882006205762,
+      "std": 0.16033962124255505
+    },
+    {
+      "name": "temp_B_mean",
+      "importance": 0.09946250079862849,
+      "std": 0.05956934195103082
+    },
+    {
+      "name": "temp_B_total_power",
+      "importance": 0.09671830435263769,
+      "std": 0.05927692911458635
+    },
+    {
+      "name": "temp_B_rms",
+      "importance": 0.08415194785081892,
+      "std": 0.05572284143666752
+    },
+    {
+      "name": "temp_A_temp_B_corr",
+      "importance": 0.00042136231667703317,
+      "std": 0.0013572479051474388
+    },
+    {
+      "name": "temp_A_spectral_centroid",
+      "importance": 0.00020049121642330976,
+      "std": 0.0009668050658607581
+    },
+    {
+      "name": "temp_A_kurtosis",
+      "importance": 0.00019288760221446255,
+      "std": 0.0010059031880132326
+    },
+    {
+      "name": "temp_A_skewness",
+      "importance": 9.768332520138536e-05,
+      "std": 0.00042042549177647446
+    },
+    {
+      "name": "temp_B_kurtosis",
+      "importance": 8.173568465692262e-05,
+      "std": 0.0005650298635308528
+    },
+    {
+      "name": "temp_A_impulse_factor",
+      "importance": 7.797531934398791e-05,
+      "std": 0.00028545010058135116
+    },
+    {
+      "name": "temp_A_crest_factor",
+      "importance": 6.773920825591014e-05,
+      "std": 0.00030607728055878874
+    },
+    {
+      "name": "temp_A_peak_to_peak",
+      "importance": 6.524340411411191e-05,
+      "std": 0.00048641105221276185
+    },
+    {
+      "name": "temp_B_impulse_factor",
+      "importance": 3.567864712607466e-05,
+      "std": 0.0004351135083063248
+    },
+    {
+      "name": "temp_A_std",
+      "importance": 2.9999185937340935e-05,
+      "std": 0.0001925557661632539
+    },
+    {
+      "name": "temp_B_skewness",
+      "importance": 2.70248590943203e-05,
+      "std": 0.0001907280115013825
+    },
+    {
+      "name": "temp_A_spectral_entropy",
+      "importance": 2.371572946545241e-05,
+      "std": 0.000290640021062575
+    },
+    {
+      "name": "temp_A_var",
+      "importance": 1.8141132586065483e-05,
+      "std": 0.0001364881648024261
+    },
+    {
+      "name": "temp_B_spectral_centroid",
+      "importance": 2.7763825064547475e-06,
+      "std": 3.9165694997120125e-05
+    }
+  ]
+}

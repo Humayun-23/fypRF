@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Raw datasets (too large for GitHub; extracted via setup scripts)
+*.mat
+*.tdms
+*.zip
+recordings_30/
+partitioned_dataset/
+Vibration, Acoustic, Temperature, and Motor Current Dataset*/

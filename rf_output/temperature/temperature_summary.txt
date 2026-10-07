@@ -1,0 +1,26 @@
+============================================================
+Random Forest Fault Diagnosis - TEMPERATURE Sensor
+============================================================
+
+Test Set Performance:
+  Accuracy:        0.4285
+  Macro F1:        0.3704
+  Macro Precision: 0.4671
+  Macro Recall:    0.4357
+  OOB Score:       0.9228
+
+Test Samples: 1790
+
+Per-Class Metrics:
+  BPFI        : Prec=0.0000, Rec=0.0000, F1=0.0000, Support=357.0
+  BPFO        : Prec=0.2944, Rec=0.5084, F1=0.3729, Support=238.0
+  Misalign    : Prec=1.0000, Rec=0.2343, F1=0.3797, Support=717.0
+  Unbalance   : Prec=0.5738, Rec=1.0000, F1=0.7292, Support=478.0
+
+Confusion Matrix:
+  Rows=Actual, Cols=Predicted
+  Classes: ['BPFI', 'BPFO', 'Misalign', 'Unbalance']
+  BPFI        : [  0 119   0 238]
+  BPFO        : [  0 121   0 117]
+  Misalign    : [378 171 168   0]
+  Unbalance   : [  0   0   0 478]

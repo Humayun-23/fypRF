@@ -1,0 +1,106 @@
+{
+  "sensor": "acoustic",
+  "type": "MDI (Gini Importance)",
+  "top_features": [
+    {
+      "name": "pressure_dominant_freq",
+      "importance": 0.14206721528884825,
+      "std": 0.20565437654588595
+    },
+    {
+      "name": "pressure_wp_energy_2",
+      "importance": 0.14059465450888886,
+      "std": 0.1796882923392798
+    },
+    {
+      "name": "pressure_spectral_centroid",
+      "importance": 0.07540091520041549,
+      "std": 0.13751769648207693
+    },
+    {
+      "name": "pressure_wp_energy_3",
+      "importance": 0.06500841910772562,
+      "std": 0.0980349618077652
+    },
+    {
+      "name": "pressure_kurtosis",
+      "importance": 0.04879949579436367,
+      "std": 0.10808468713579074
+    },
+    {
+      "name": "pressure_wp_energy_1",
+      "importance": 0.04733342669411799,
+      "std": 0.10204172974928775
+    },
+    {
+      "name": "pressure_spectral_entropy",
+      "importance": 0.04591623707104124,
+      "std": 0.09697711465411193
+    },
+    {
+      "name": "pressure_std",
+      "importance": 0.03882748567000996,
+      "std": 0.10363943407512892
+    },
+    {
+      "name": "pressure_band_energy_0",
+      "importance": 0.03784526609876435,
+      "std": 0.06933120732557328
+    },
+    {
+      "name": "pressure_band_energy_1",
+      "importance": 0.0371903845535506,
+      "std": 0.0718909401150405
+    },
+    {
+      "name": "pressure_wp_energy_0",
+      "importance": 0.03604445692089903,
+      "std": 0.09041915010060005
+    },
+    {
+      "name": "pressure_total_power",
+      "importance": 0.03403259110158672,
+      "std": 0.09246834197158317
+    },
+    {
+      "name": "pressure_shape_factor",
+      "importance": 0.03357985466331538,
+      "std": 0.0905745614646586
+    },
+    {
+      "name": "pressure_rms",
+      "importance": 0.028258097482874757,
+      "std": 0.08844778109785015
+    },
+    {
+      "name": "pressure_impulse_factor",
+      "importance": 0.027721052330795515,
+      "std": 0.08926086051380748
+    },
+    {
+      "name": "pressure_var",
+      "importance": 0.026850328382652378,
+      "std": 0.08587247564172933
+    },
+    {
+      "name": "pressure_wp_energy_6",
+      "importance": 0.025791488362126233,
+      "std": 0.05169009376140778
+    },
+    {
+      "name": "pressure_wp_entropy",
+      "importance": 0.0233013565168937,
+      "std": 0.07355935069619039
+    },
+    {
+      "name": "pressure_peak_to_peak",
+      "importance": 0.022468642512265696,
+      "std": 0.07698010695767225
+    },
+    {
+      "name": "pressure_wp_energy_7",
+      "importance": 0.016569956906506516,
+      "std": 0.04313252688334292
+    }
+  ]
+}

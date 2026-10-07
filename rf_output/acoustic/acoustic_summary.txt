@@ -1,0 +1,24 @@
+============================================================
+Random Forest Fault Diagnosis - ACOUSTIC Sensor
+============================================================
+
+Test Set Performance:
+  Accuracy:        1.0000
+  Macro F1:        1.0000
+  Macro Precision: 1.0000
+  Macro Recall:    1.0000
+  OOB Score:       1.0000
+
+Test Samples: 714
+
+Per-Class Metrics:
+  Normal      : Prec=1.0000, Rec=1.0000, F1=1.0000, Support=238.0
+  BPFI        : Prec=1.0000, Rec=1.0000, F1=1.0000, Support=238.0
+  BPFO        : Prec=1.0000, Rec=1.0000, F1=1.0000, Support=238.0
+
+Confusion Matrix:
+  Rows=Actual, Cols=Predicted
+  Classes: ['Normal', 'BPFI', 'BPFO']
+  Normal      : [238   0   0]
+  BPFI        : [  0 238   0]
+  BPFO        : [  0   0 238]

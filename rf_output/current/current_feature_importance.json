@@ -1,0 +1,106 @@
+{
+  "sensor": "current",
+  "type": "MDI (Gini Importance)",
+  "top_features": [
+    {
+      "name": "U_phase_spectral_entropy",
+      "importance": 0.20192395941836347,
+      "std": 0.10817675279449276
+    },
+    {
+      "name": "U_phase_dominant_freq",
+      "importance": 0.11818750050470435,
+      "std": 0.1318746342333943
+    },
+    {
+      "name": "U_phase_std",
+      "importance": 0.08607290450216946,
+      "std": 0.059283559770368865
+    },
+    {
+      "name": "U_phase_total_power",
+      "importance": 0.07942356942806332,
+      "std": 0.06378584433030983
+    },
+    {
+      "name": "U_phase_rms",
+      "importance": 0.07279467827436968,
+      "std": 0.05515656034410491
+    },
+    {
+      "name": "U_phase_var",
+      "importance": 0.07251113025363447,
+      "std": 0.052627382572644495
+    },
+    {
+      "name": "U_phase_wp_energy_3",
+      "importance": 0.055738534060365316,
+      "std": 0.059001423916314376
+    },
+    {
+      "name": "U_phase_wp_entropy",
+      "importance": 0.045751134364094774,
+      "std": 0.04715171163634046
+    },
+    {
+      "name": "U_phase_wp_energy_0",
+      "importance": 0.044945114956286045,
+      "std": 0.04282808886337219
+    },
+    {
+      "name": "U_phase_wp_energy_1",
+      "importance": 0.04111227163363902,
+      "std": 0.043747122601742704
+    },
+    {
+      "name": "U_phase_wp_energy_4",
+      "importance": 0.03620974413620216,
+      "std": 0.04349536574274151
+    },
+    {
+      "name": "U_phase_wp_energy_2",
+      "importance": 0.027890572356284067,
+      "std": 0.03931813311477963
+    },
+    {
+      "name": "U_phase_spectral_centroid",
+      "importance": 0.024737735312889576,
+      "std": 0.03169470304232027
+    },
+    {
+      "name": "U_phase_kurtosis",
+      "importance": 0.02361832022845431,
+      "std": 0.026661875998859757
+    },
+    {
+      "name": "U_phase_shape_factor",
+      "importance": 0.021293203888829673,
+      "std": 0.025419510852619964
+    },
+    {
+      "name": "U_phase_wp_energy_7",
+      "importance": 0.010805308782750702,
+      "std": 0.021852147603065405
+    },
+    {
+      "name": "U_phase_mean",
+      "importance": 0.007840061820522923,
+      "std": 0.00496408609457731
+    },
+    {
+      "name": "U_phase_skewness",
+      "importance": 0.00480178752586554,
+      "std": 0.0033287951390996223
+    },
+    {
+      "name": "U_phase_band_energy_1",
+      "importance": 0.0046045679605192635,
+      "std": 0.007061651387887741
+    },
+    {
+      "name": "U_phase_band_energy_0",
+      "importance": 0.004594838018297097,
+      "std": 0.004983606338996706
+    }
+  ]
+}

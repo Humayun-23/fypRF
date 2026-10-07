@@ -1,0 +1,26 @@
+============================================================
+Random Forest Fault Diagnosis - CURRENT Sensor
+============================================================
+
+Test Set Performance:
+  Accuracy:        0.3201
+  Macro F1:        0.2530
+  Macro Precision: 0.2236
+  Macro Recall:    0.3428
+  OOB Score:       0.9803
+
+Test Samples: 1790
+
+Per-Class Metrics:
+  BPFI        : Prec=0.0535, Rec=0.0560, F1=0.0547, Support=357.0
+  BPFO        : Prec=0.4121, Rec=0.3151, F1=0.3571, Support=238.0
+  Misalign    : Prec=0.0000, Rec=0.0000, F1=0.0000, Support=717.0
+  Unbalance   : Prec=0.4287, Rec=1.0000, F1=0.6001, Support=478.0
+
+Confusion Matrix:
+  Rows=Actual, Cols=Predicted
+  Classes: ['BPFI', 'BPFO', 'Misalign', 'Unbalance']
+  BPFI        : [ 20 107 119 111]
+  BPFO        : [163  75   0   0]
+  Misalign    : [191   0   0 526]
+  Unbalance   : [  0   0   0 478]

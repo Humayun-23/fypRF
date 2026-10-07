@@ -1,0 +1,44 @@
+{
+  "model_type": "RandomForest",
+  "sensor": "vibration",
+  "window_size": 25600,
+  "step_size": 12800,
+  "sample_rate": 25600,
+  "n_features": 154,
+  "n_train_windows": 6327,
+  "n_test_windows": 1551,
+  "train_class_distribution": {
+    "Normal": 714,
+    "BPFI": 833,
+    "BPFO": 1434,
+    "Misalign": 3346
+  },
+  "test_class_distribution": {
+    "Normal": 357,
+    "BPFI": 238,
+    "BPFO": 717,
+    "Misalign": 239
+  },
+  "classes_used": [
+    "BPFI",
+    "BPFO",
+    "Misalign",
+    "Unbalance"
+  ],
+  "best_params": {
+    "n_estimators": 200,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "criterion": "gini",
+    "class_weight": "balanced",
+    "bootstrap": true,
+    "oob_score": true,
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "tuning_method": "none",
+  "tuning_convergence": [],
+  "oob_score": 1.0
+}

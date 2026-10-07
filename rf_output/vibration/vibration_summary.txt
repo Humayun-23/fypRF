@@ -1,0 +1,26 @@
+============================================================
+Random Forest Fault Diagnosis - VIBRATION Sensor
+============================================================
+
+Test Set Performance:
+  Accuracy:        0.8459
+  Macro F1:        0.8667
+  Macro Precision: 0.8750
+  Macro Recall:    0.9167
+  OOB Score:       1.0000
+
+Test Samples: 1551
+
+Per-Class Metrics:
+  BPFI        : Prec=1.0000, Rec=1.0000, F1=1.0000, Support=357.0
+  BPFO        : Prec=1.0000, Rec=1.0000, F1=1.0000, Support=238.0
+  Misalign    : Prec=1.0000, Rec=0.6667, F1=0.8000, Support=717.0
+  Unbalance   : Prec=0.5000, Rec=1.0000, F1=0.6667, Support=239.0
+
+Confusion Matrix:
+  Rows=Actual, Cols=Predicted
+  Classes: ['BPFI', 'BPFO', 'Misalign', 'Unbalance']
+  BPFI        : [357   0   0   0]
+  BPFO        : [  0 238   0   0]
+  Misalign    : [  0   0 478 239]
+  Unbalance   : [  0   0   0 239]

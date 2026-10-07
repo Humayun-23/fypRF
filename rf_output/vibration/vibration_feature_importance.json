@@ -1,0 +1,106 @@
+{
+  "sensor": "vibration",
+  "type": "MDI (Gini Importance)",
+  "top_features": [
+    {
+      "name": "x_housing_A_y_housing_B_corr",
+      "importance": 0.07563215561300658,
+      "std": 0.14380293114535572
+    },
+    {
+      "name": "y_sum_peak_to_peak",
+      "importance": 0.039889481590453024,
+      "std": 0.10545407595822887
+    },
+    {
+      "name": "x_diff_skewness",
+      "importance": 0.03838165708541278,
+      "std": 0.10587665827673308
+    },
+    {
+      "name": "y_diff_peak_to_peak",
+      "importance": 0.03444198598701699,
+      "std": 0.09485314948844817
+    },
+    {
+      "name": "y_housing_A_peak_to_peak",
+      "importance": 0.03200913844625511,
+      "std": 0.0975810809789289
+    },
+    {
+      "name": "y_diff_std",
+      "importance": 0.03150225835525686,
+      "std": 0.09073681437513226
+    },
+    {
+      "name": "y_housing_A_x_housing_B_corr",
+      "importance": 0.03138819141895434,
+      "std": 0.08171820013505776
+    },
+    {
+      "name": "x_diff_std",
+      "importance": 0.029470808908799193,
+      "std": 0.08359302923259779
+    },
+    {
+      "name": "x_housing_A_peak_to_peak",
+      "importance": 0.027244589434907034,
+      "std": 0.09037248469989524
+    },
+    {
+      "name": "y_diff_var",
+      "importance": 0.025300186052389886,
+      "std": 0.0816828816970132
+    },
+    {
+      "name": "x_diff_rms",
+      "importance": 0.024381434509076077,
+      "std": 0.07784099462530451
+    },
+    {
+      "name": "x_diff_var",
+      "importance": 0.023940034824532174,
+      "std": 0.07910839607150125
+    },
+    {
+      "name": "x_sum_peak_to_peak",
+      "importance": 0.021192801433890848,
+      "std": 0.07971686029001032
+    },
+    {
+      "name": "x_housing_A_std",
+      "importance": 0.020926711836801778,
+      "std": 0.08253744406644457
+    },
+    {
+      "name": "y_housing_A_kurtosis",
+      "importance": 0.020880386660780695,
+      "std": 0.0642484693849724
+    },
+    {
+      "name": "y_diff_rms",
+      "importance": 0.02070920063696417,
+      "std": 0.07494206281919938
+    },
+    {
+      "name": "x_sum_rms",
+      "importance": 0.01983179980857466,
+      "std": 0.07691118402522082
+    },
+    {
+      "name": "y_sum_kurtosis",
+      "importance": 0.019061869772987922,
+      "std": 0.0659086892457851
+    },
+    {
+      "name": "x_housing_A_wp_energy_7",
+      "importance": 0.01760696732727859,
+      "std": 0.07094817467922819
+    },
+    {
+      "name": "x_housing_A_var",
+      "importance": 0.01695499158244872,
+      "std": 0.07268691044991657
+    }
+  ]
+}
